@@ -30,3 +30,12 @@ void loop() {
 	// Dump debug info about the card; PICC_HaltA() is automatically called
 	mfrc522.PICC_DumpToSerial(&(mfrc522.uid));
 }
+
+/*SDA	Digital 10
+SCK	Digital 13
+MOSI	Digital 11
+MISO	Digital 12
+IRQ	unconnected
+GND	GND
+RST	Digital 9
+3.3V -	3.3V
